@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.description {
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.author {
+  padding: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.likes {
+  padding: 10px;
+  font-size: 14px;
+  color: #666;
+}
